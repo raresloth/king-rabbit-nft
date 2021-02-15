@@ -1,7 +1,7 @@
 {
-  "name": "erc-1155",
+  "name": "king-rabbit-nft",
   "version": "1.0.0",
-  "description": "ERC-1155 Reference Implementation",
+  "description": "King Rabbit ERC-1155 Implementation",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -21,17 +21,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enjin/erc-1155.git"
+    "url": "git+https://github.com/raresloth/king-rabbit-nft.git"
   },
   "keywords": [
-    "enjin",
-    "coin",
+    "king rabbit",
+    "raresloth",
+    "nft",
+    "token",
     "ethereum"
   ],
-  "author": "Enjin PTE LTD",
+  "author": "RareSloth LLC",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/enjin/erc-1155/issues"
+    "url": "https://github.com/raresloth/king-rabbit-nft/issues"
   },
-  "homepage": "https://github.com/enjin/erc-1155#readme"
+  "homepage": "https://github.com/raresloth/king-rabbit-nft#readme"
 }
