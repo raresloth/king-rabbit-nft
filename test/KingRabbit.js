@@ -3,7 +3,7 @@
 
 import expectThrow from './helpers/expectThrow';
 
-const ERC1155Mintable = artifacts.require('ERC1155Mintable.sol');
+const KingRabbit = artifacts.require('KingRabbit.sol');
 const ERC1155MockReceiver = artifacts.require('ERC1155MockReceiver.sol');
 const BigNumber = require('bignumber.js');
 
@@ -157,7 +157,7 @@ contract('ERC1155Mintable - tests all core 1155 functionality.', (accounts) => {
         user2 = accounts[2];
         user3 = accounts[3];
         user4 = accounts[4];
-        mainContract = await ERC1155Mintable.new();
+        mainContract = await KingRabbit.new();
         receiverContract = await ERC1155MockReceiver.new();
     });
 
